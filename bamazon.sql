@@ -1,4 +1,4 @@
-drop database bamazon;
+
 create database bamazon;
 create table products(
     item_id  integer(10) primary key auto_increment,
@@ -21,4 +21,4 @@ insert into products (product_name, department_name,price,stock_quantity)
         ("aspirin", "health", 5, 100),
         ("book", "entertainment", 10, 50),
         ("playing cards", "entertainment", 1, 75);
-        
+
